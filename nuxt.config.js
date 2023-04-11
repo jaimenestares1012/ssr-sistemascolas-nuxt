@@ -3,6 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    srcDir: 'src/',
     titleTemplate: '%s - ssr-sistemascolas-nuxt',
     title: 'ssr-sistemascolas-nuxt',
     meta: [
@@ -58,7 +59,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
